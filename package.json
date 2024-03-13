@@ -1,5 +1,5 @@
 {
-  "name": "Chittappan Tracker",
+  "name": "Chittappan_Tracker",
   "version": "1.0.0",
   "description": "Track Down People just through a link",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "Mohammed Athif",
+    "name": "Mohammed_Athif",
     "url": "https://github.com/SCR-athif/"
   },
   "license": "MIT",
